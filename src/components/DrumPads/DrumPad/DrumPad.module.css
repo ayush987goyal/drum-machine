@@ -1,0 +1,16 @@
+.DrumPadButton {
+  border-radius: 5px;
+  padding: 20px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.DrumPadButton:active {
+  background-color: yellow;
+  transform: translateY(4px);
+}
+
+.ManualActive {
+  background-color: yellow;
+  transform: translateY(4px);
+}
