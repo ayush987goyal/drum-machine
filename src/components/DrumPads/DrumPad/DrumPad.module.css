@@ -7,21 +7,15 @@
   border: none;
   color: white;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .DrumPadButton:active {
   background-color: #09104d;
   transform: translateY(4px);
-  color: white;
-  font-size: 2rem;
-  font-weight: 400;
 }
 
 .ManualActive {
   background-color: #09104d;
   transform: translateY(4px);
-  color: white;
-  font-size: 2rem;
-  font-weight: 400;
 }
