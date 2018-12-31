@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dd0c8ef23c7974cceada",
-    "url": "/drum-machine/static/css/main.2beb4c71.chunk.css"
+    "revision": "9bb2f7f048a3fedb54ed",
+    "url": "/drum-machine/static/css/main.327d9a7d.chunk.css"
   },
   {
-    "revision": "dd0c8ef23c7974cceada",
-    "url": "/drum-machine/static/js/main.dd0c8ef2.chunk.js"
+    "revision": "9bb2f7f048a3fedb54ed",
+    "url": "/drum-machine/static/js/main.9bb2f7f0.chunk.js"
   },
   {
     "revision": "5e5a09e7e6438a77cae2",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/drum-machine/static/media/RP4_KICK_1.09fda256.mp3"
   },
   {
-    "revision": "466ff1b463e2fa661b57a104011ed49d",
+    "revision": "468cb31db9170e73b236058858af7f8d",
     "url": "/drum-machine/index.html"
   }
 ];
