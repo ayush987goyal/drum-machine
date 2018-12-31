@@ -4,12 +4,17 @@ import classes from './DrumPads.module.css';
 import DrumPad from './DrumPad/DrumPad';
 
 const DrumPads = props => {
-  const { beats } = props;
+  const { beats, beatPlayed } = props;
 
   return (
     <div className={classes.DrumPads}>
       {beats.map(beat => (
-        <DrumPad key={beat.name} keyName={beat.name} audioSource={beat.source} />
+        <DrumPad
+          key={beat.name}
+          keyName={beat.name}
+          audioSource={beat.source}
+          beatPlayed={beatPlayed}
+        />
       ))}
     </div>
   );

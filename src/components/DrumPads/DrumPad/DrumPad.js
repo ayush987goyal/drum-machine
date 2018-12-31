@@ -3,10 +3,9 @@ import React, { useRef, useEffect, useState } from 'react';
 import classes from './DrumPad.module.css';
 
 const DrumPad = props => {
-  const { audioSource, keyName } = props;
+  const { audioSource, keyName, beatPlayed } = props;
 
   const audioRef = useRef();
-  const buttonRef = useRef();
   const [activeClass, setActiveClass] = useState('');
 
   useEffect(
@@ -18,6 +17,7 @@ const DrumPad = props => {
   );
 
   const playSound = () => {
+    beatPlayed(keyName);
     audioRef.current.currentTime = 0;
     audioRef.current.play();
     setActiveClass(classes.ManualActive);
@@ -33,11 +33,7 @@ const DrumPad = props => {
   return (
     <div className="drum-pad" id={keyName}>
       <audio ref={audioRef} src={require(`../../../assets/sounds/${audioSource}.mp3`)} />
-      <button
-        ref={buttonRef}
-        onClick={playSound}
-        className={[classes.DrumPadButton, activeClass].join(' ')}
-      >
+      <button onClick={playSound} className={[classes.DrumPadButton, activeClass].join(' ')}>
         {keyName}
       </button>
     </div>
