@@ -23,15 +23,8 @@ const DrumMachine = () => {
 
   return (
     <div id="drum-machine" className={classes.DrumMachine}>
-      <div>
-        <Display message={playedBeatTitle} />
-      </div>
-      <div>
-        <DrumPads
-          beats={Object.keys(DRUM_BEATS).map(k => DRUM_BEATS[k])}
-          beatPlayed={onBeatPlayed}
-        />
-      </div>
+      <Display message={playedBeatTitle} />
+      <DrumPads beats={Object.keys(DRUM_BEATS).map(k => DRUM_BEATS[k])} beatPlayed={onBeatPlayed} />
     </div>
   );
 };

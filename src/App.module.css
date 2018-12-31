@@ -1,13 +1,13 @@
-.app {
+.App {
   background-color: #e6edff;
   height: 100vh;
-  padding-top: 100px;
   text-align: center;
 }
 
-.title {
+.Title {
   font-size: 4rem;
   font-style: italic;
   color: #09014d;
   margin-top: 0;
+  padding-top: 80px;
 }
