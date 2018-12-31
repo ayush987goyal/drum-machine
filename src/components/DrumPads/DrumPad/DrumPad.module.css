@@ -1,17 +1,27 @@
 .DrumPadButton {
   height: 75px;
   width: 75px;
-  border-radius: 25px;
   cursor: pointer;
   font-family: inherit;
+  background-color: #836e8b;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .DrumPadButton:active {
-  background-color: yellow;
+  background-color: #09104d;
   transform: translateY(4px);
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .ManualActive {
-  background-color: yellow;
+  background-color: #09104d;
   transform: translateY(4px);
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
 }

@@ -31,8 +31,13 @@ const DrumPad = props => {
   };
 
   return (
-    <div className="drum-pad" id={keyName}>
-      <audio ref={audioRef} src={require(`../../../assets/sounds/${audioSource}.mp3`)} />
+    <div className="drum-pad">
+      <audio
+        ref={audioRef}
+        src={require(`../../../assets/sounds/${audioSource}.mp3`)}
+        className="clip"
+        id={keyName}
+      />
       <button onClick={playSound} className={[classes.DrumPadButton, activeClass].join(' ')}>
         {keyName}
       </button>
