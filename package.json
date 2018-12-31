@@ -2,6 +2,7 @@
   "name": "drum-machine",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ayush987goyal.github.io/drum-machine",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0-alpha.2",
